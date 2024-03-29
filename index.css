@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+:root{
+    --primaryColor: rgb(0, 132, 255);
+    --tetiaryColor: rgba(0, 128, 0, 0.637);
+}
+.parent{
+    text-align: center;
+    padding: 5px;
+}
+textarea {
+    border-radius: 20px 5px;
+    padding: 10px;
+    width: 100%;
+    border: 3px solid var(--primaryColor);
+    transition: all 0.2s ease-in-out;
+  }
+  textarea:focus { border-color:var(--tetiaryColor);}
+  body{padding: 2em;}
+  button{
+    border: 1px solid var(--primaryColor);
+    padding: 10px;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    margin-top: 5px;
+  }
+  button:hover{
+    background-color: var(--primaryColor);
+    margin-top: 8px;
+    color: white;
+  }
+  #count{
+    margin: 10px;
+    padding: 12px;
+    border:2px solid transparent;
+    border-radius: 5px;
+  }
